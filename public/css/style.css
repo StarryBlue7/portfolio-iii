@@ -189,6 +189,10 @@ summary:last-child {
     align-items: center;
 }
 
+#portfolio > p, #resume > p {
+    text-align: center;
+}
+
 #resume > embed {
     width: 100%;
     height: 250px;
