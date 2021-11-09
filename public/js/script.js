@@ -20,6 +20,26 @@ $.ajax({
     $('#skill-list').html(skillList);
 });
 
+// Get & render projects data
+$.ajax({
+    url: 'https://immense-lake-41636.herokuapp.com/api/projects',
+    method: 'GET',
+  }).then(function (response) {
+    let projectList = "";
+    response.forEach(project => {
+        projectList += `<summary>
+        <h4>
+            <a target=_blank href="${project.deployed_url}">${project.title}</a>
+            <a target=_blank href="${project.github_url}">Repo</a>
+        </h4>
+        <a target=_blank href="${project.deployed_url}">
+            <img class="screenshot" src="${project.img_url}" />
+        </a>
+    </summary>`
+    });
+    $('#projects').html(projectList);
+});
+
 // Video background script
 const frameNumber = 0;
 const playbackConst = 1000;       
