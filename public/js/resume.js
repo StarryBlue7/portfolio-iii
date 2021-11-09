@@ -15,7 +15,10 @@ $.ajax({
   }).then(function (response) {
     let employmentList = "";
     response.forEach(employment => {
-        employmentList += `<li>${employment.company}: ${employment.position}, ${employment.start_date}-${employment.end_date}</li>`
+        const dateFormat = { year: 'numeric', month: 'long' };
+        const start = employment.start_date.toLocaleDateString('en-US', dateFormat);
+        const end = employment.end_date.toLocaleDateString('en-US', dateFormat);
+        employmentList += `<li>${employment.company}: <br>${employment.position} <br>${start}-${end}</li>`
     });
     $('#employments').html(employmentList);
 });
