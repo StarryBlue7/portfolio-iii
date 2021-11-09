@@ -208,6 +208,17 @@ summary:last-child {
     z-index: 1;
 }
 
+#full > #resume > embed {
+    height: 600px;
+}
+
+#employments {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
 #contact-box {
     display: flex;
     justify-content: center;
