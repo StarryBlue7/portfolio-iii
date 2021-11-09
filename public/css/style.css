@@ -126,6 +126,11 @@ main > section {
     z-index: 1;
 }
 
+#full {
+    padding-top: 0;
+    margin-top: 0;
+}
+
 p {
     padding-bottom: 30px;
     line-height: 50px;
@@ -156,6 +161,10 @@ p {
     display: flex;
     flex-flow: row-reverse wrap-reverse;
     gap: 30px;
+}
+
+#full-portfolio > #projects {
+    flex-flow: column-reverse;
 }
 
 summary {
@@ -225,6 +234,10 @@ footer {
     bottom: 0;
     margin-bottom: 30px;
     align-self: center;
+}
+
+#full-footer {
+    margin-top: 200px;
 }
 
 @media screen and (max-width: 1600px) {    
