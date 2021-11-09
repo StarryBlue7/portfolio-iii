@@ -16,8 +16,8 @@ $.ajax({
     let employmentList = "";
     response.forEach(employment => {
         const dateFormat = { year: 'numeric', month: 'long' };
-        const start = employment.start_date.toLocaleDateString('en-US', dateFormat);
-        const end = employment.end_date.toLocaleDateString('en-US', dateFormat);
+        const start = new Date(employment.start_date).toLocaleDateString('en-US', dateFormat);
+        const end = new Date(employment.end_date).toLocaleDateString('en-US', dateFormat);
         employmentList += `<li>${employment.company}: <br>${employment.position} <br>${start}-${end}</li>`
     });
     $('#employments').html(employmentList);
