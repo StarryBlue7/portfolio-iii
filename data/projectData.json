@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Password Generator",
+        "img_url": "./images/password-generator.gif",
+        "deployed_url": "https://starryblue7.github.io/password-generator/",
+        "github_url": "https://github.com/StarryBlue7/password-generator"
+    },
+    {
+        "title": "Quiz Game",
+        "img_url": "./images/quiz-game.gif",
+        "deployed_url": "https://starryblue7.github.io/quiz-game/",
+        "github_url": "https://github.com/StarryBlue7/quiz-game"
+    },
+    {
+        "title": "Weather Dashboard",
+        "img_url": "./images/weather-dashboard.gif",
+        "deployed_url": "https://starryblue7.github.io/weather-dashboard/",
+        "github_url": "https://github.com/StarryBlue7/weather-dashboard"
+    },
+    {
+        "title": "Kitschy | Kitchen Helper",
+        "img_url": "./images/kitschy.gif",
+        "deployed_url": "https://starryblue7.github.io/kitschy-app/",
+        "github_url": "https://github.com/StarryBlue7/kitschy-app"
+    },
+    {
+        "title": "Celebrity Showdown",
+        "img_url": "./images/celebrity-showdown.gif",
+        "deployed_url": "https://powerful-badlands-23075.herokuapp.com/",
+        "github_url": "https://github.com/StarryBlue7/celebrity-showdown"
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+        "company": "Emerald Cloud Lab",
+        "position": "Senior Lab Associate",
+        "start_date": "June 2020",
+        "end_date": "September 2021"
+    },
+    {
+        "company": "Starbucks Coffee Co.",
+        "position": "Barista, Shift Manager",
+        "start_date": "October 2010",
+        "end_date": "March 2020"
+    },
+    {
+        "company": "Pamplemousse Grille",
+        "position": "Host, Event Coordinator",
+        "start_date": "May 2011",
+        "end_date": "December 2017"
+    }
+]
