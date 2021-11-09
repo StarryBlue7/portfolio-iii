@@ -15,7 +15,7 @@ $.ajax({
   }).then(function (response) {
     let skillList = "";
     response.forEach(skill => {
-        skillList =+ `<li>${skill.name}</li>`
+        skillList += `<li>${skill.name}</li>`
     });
     $('#skill-list').html(skillList);
 });
